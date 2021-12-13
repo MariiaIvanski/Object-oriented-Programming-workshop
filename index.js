@@ -1,12 +1,8 @@
-const circle = {
-  radius: 1,
-  location: {
-    x: 1,
-    y: 1,
-  },
-  draw: function () {
-    console.log("draw");
-  },
-};
+let obj = { value: 10 };
 
-circle.draw();
+function increase(obj) {
+  obj.value++;
+}
+
+increase(obj);
+console.log(obj);
